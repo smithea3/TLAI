@@ -4,15 +4,16 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="my-great-book">
+  <book xml:id="tlai">
     <title>Teaching and Learning with Generative Arificial Intelligence</title>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
-
+    <xi:include href="./ch-defining-gai.ptx" />
+    <xi:include href="./ch-learning.ptx" />
+    <xi:include href="./ch-teaching.ptx" />
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
