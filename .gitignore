@@ -1,0 +1,38 @@
+# PreTeXt Build Outputs
+build/
+tmp/
+logs/
+output/
+generated-assets/
+*.html
+*.pdf
+*.tex
+*.xml
+*.ipynb
+*.sagetex.sage
+*.sagetex.scmd
+*.sagetex.log
+*.sagetex.py
+*.sagetex.sout
+*.sagetex.md
+
+# PreTeXt-CLI specific
+.pretext-cache/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.project
+.classpath
+.settings/
+
+# Log files
+*.log
+
+# Dependency management
+node_modules/
